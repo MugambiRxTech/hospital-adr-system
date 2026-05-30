@@ -1,4 +1,4 @@
-from app import db
+from extensions import db
 
 # Junction table for Many-to-Many relationship between ADRReport and Symptom
 report_symptoms = db.Table('report_symptoms',
